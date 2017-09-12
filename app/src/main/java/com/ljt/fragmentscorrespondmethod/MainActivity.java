@@ -37,7 +37,9 @@ public class MainActivity extends AppCompatActivity implements NameFragment.Show
     }
 
     /*
-    *
+    *1.直接在一个Fragment中调用另外一个Fragment中的方法
+    * 2.使用接口
+    * 3.使用广播
     *4.Fragment直接调用Activity中的public方法
 我们也可以直接在Fragment中调用Activity中的公开方法，如下：
 ((MainActivity) getActivity()).showProByName(name);
